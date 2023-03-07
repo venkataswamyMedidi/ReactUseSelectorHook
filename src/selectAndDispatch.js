@@ -16,7 +16,7 @@ const App = () => {
     dispatch(fetchDogImage());
     dispatch(fetchQuote());
     // console.log("quoteData", quoteData);
-  }, [quoteData]);
+  }, [dispatch]);
 
   return (
     <div className={App}>
